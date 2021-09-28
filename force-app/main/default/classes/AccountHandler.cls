@@ -6,7 +6,7 @@ public with sharing class AccountHandler implements ITrigger {
     {
         listaCuentas= newList;
     }
-    
+    //hola
     public void bulkAfter(list<SObject> newList, map<Id,SObject> oldMap)
     {
         
