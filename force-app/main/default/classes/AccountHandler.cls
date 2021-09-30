@@ -58,5 +58,6 @@ public with sharing class AccountHandler implements ITrigger {
 
     public void andFinally()
     {
+        AccountUtil.insertador();
     }
 }
